@@ -9,6 +9,23 @@ sudo pip install aws-ec2-assign-elastic-ip
 
 
 Step2- AWS configurations IAM user and mentions  Elastic IP
+Create  IAM user with this permission 
+
+{
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "ec2:AssociateAddress",
+        "ec2:DescribeAddresses"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
+
+
+
 Create script- #change your script  Path
   cd /home/ubuntu/mysql/
 sudo nano scriptRun.sh
