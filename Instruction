@@ -14,7 +14,7 @@ Create script- #change your script  Path
 sudo nano scriptRun.sh
 ( And past )
 #!/bin/bash
-/usr/local/bin/aws-ec2-assign-elastic-ip --access-key AK00000I7UOCG0000 --secret-key 00000BJQqPWKEBe00000O000 --valid-ips 52.205.11.12,44.194.15.32
+/usr/local/bin/aws-ec2-assign-elastic-ip --access-key 000000000 --secret-key 00000000O000 --valid-ips 52.25.11.12,44.194.15.32
 
 
 
